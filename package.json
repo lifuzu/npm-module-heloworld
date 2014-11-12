@@ -1,0 +1,20 @@
+{
+  "name": "npm-module-heloworld",
+  "version": "0.0.1",
+  "description": "a hello world to practice node module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "module"
+  ],
+  "author": "Richard Lee",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.0.1",
+    "chai": "^1.10.0"
+  }
+}
