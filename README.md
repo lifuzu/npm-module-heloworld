@@ -4,11 +4,11 @@ npm module heloworld
 A small library providing utility methods to `escape` and `unescape` HTML entities
 
 ## Installation
-
+```
   npm install npm-module-heloworld --save
-
+```
 ## Usage
-
+```
   var scapegoat = require('npm-module-heloworld')
       escape = scapegoat.escape,
       unescape = scapegoat.unescape;
@@ -18,11 +18,11 @@ A small library providing utility methods to `escape` and `unescape` HTML entiti
       unescaped = unescape(escaped);
 
   console.log('html', html, 'escaped', escaped, 'unescaped', unescaped);
-
+```
 ## Tests
-
+```
   npm test
-
+```
 ## Contributing
 
 In lieu of a formal styleguide, take care to maintain the existing coding style.
